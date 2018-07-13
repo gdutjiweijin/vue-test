@@ -1,6 +1,6 @@
 <template>
     <div class="normarl-echart" ref="normarlEchart">
-    </div>    
+    </div>
 </template>
 
 <script>
