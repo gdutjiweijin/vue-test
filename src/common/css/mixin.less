@@ -1,0 +1,38 @@
+/**
+* mixin文件
+* @author jiweijin@baidu.com
+* @emial jiweijin@biadu.com
+* @date created by jiwejin on 2017/10/20
+*/
+
+// 滚动条
+.scrollbar(@thickness) {
+    ::-webkit-scrollbar {
+    width: @thickness;
+    height: @thickness;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: rgba(113, 112, 107, 0.1);
+        -webkit-border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:vertical {
+        background-color: rgba(0, 0, 0, .2);
+        -webkit-border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:vertical:hover,
+    ::-webkit-scrollbar-thumb:horizontal:hover {
+        background: rgba(0, 0, 0, .5);
+    }
+
+    ::-webkit-scrollbar-thumb:horizontal {
+        background-color: rgba(0, 0, 0, .2);
+        -webkit-border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-corner {
+        background-color: transparent;
+    }
+}
