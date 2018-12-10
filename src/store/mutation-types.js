@@ -1,0 +1,1 @@
+export const MODIFY_USERNAME = 'MODIFY_USERNAME';
