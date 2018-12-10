@@ -1,7 +1,7 @@
 # vue demo
 
 > A Vue.js project
-## vue + echart + element-ui + vue-router + vuex + font-awesome + less
+## vue + echart + element-ui + vue-router + vuex + font-awesome + less + axios
 
 ## Build Setup
 
